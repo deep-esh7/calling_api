@@ -478,6 +478,7 @@ async function fetchEmployeeDetails(
       // fetchAllEmployeeDetailsForCA.push(value.data()["phoneNo"].toString());
 
       if (agentIndex == 0) {
+        console.log();
         v1 = value.data()["phoneNo"].toString();
       }
       if (agentIndex == 1) {
